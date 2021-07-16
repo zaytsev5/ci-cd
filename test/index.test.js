@@ -10,6 +10,6 @@ describe('sort an array', function() {
     });
     it('should sorted array orderd by ASC', function() {
 
-      assert.deepEqual([5,-10].sort(ascSort),[5,-10])
+      assert.deepEqual([5,10,12].sort(ascSort),[5,12,10])
   });
 });
