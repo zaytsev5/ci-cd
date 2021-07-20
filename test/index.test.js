@@ -1,4 +1,4 @@
-const { descSort, ascSort } = require('../src/index')
+const { descSort } = require('../src/index')
 const assert = require('assert')
 
 describe('sort an array', function() {

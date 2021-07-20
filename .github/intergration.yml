@@ -1,8 +1,10 @@
 name: NODE CI
 
 on:
-  pull_request:
-    branches: [ master ]
+  push:
+    branches:
+      - master
+      - feat
 
 
 jobs:
