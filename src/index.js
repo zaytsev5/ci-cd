@@ -4,7 +4,6 @@ const descSort = (a,b ) => {
 const ascSort = (a, b) => {
 	return a -b;
 }
-asdad
 
 module.exports = {
 	descSort,
